@@ -11,3 +11,7 @@ input[type=text],input[type=email], textarea{
     padding: 10px 15px;
     margin: 5px 10px
 }
+
+@media only and screen (max-width: 768px) {
+    
+}

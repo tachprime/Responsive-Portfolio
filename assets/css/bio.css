@@ -1,0 +1,43 @@
+#profilePic {
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+.bio p{
+    font-size: .8em;
+    line-height: 1.4em;
+    padding: 5px;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 980px) {
+   
+    #profilePic {
+        float: none;
+    }
+    
+    .mainSection {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    #profilePic {
+        float: left;
+    }
+    
+    .mainSection {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    
+    #profilePic {
+        float: none;
+    }
+    
+    
+}

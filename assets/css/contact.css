@@ -1,0 +1,13 @@
+input[type=text],input[type=email], textarea{
+    display: block;
+    width: 100%;
+}
+
+#subBtn {
+    background-color: #4aaaa5;
+    border: none;
+    font-size: .8em;
+    color: #ffffff;
+    padding: 10px 15px;
+    margin: 5px 10px
+}

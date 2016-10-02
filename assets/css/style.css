@@ -83,7 +83,7 @@ nav a, a:link, a:visited {
     text-decoration: none;
 }
 
-nav a:hover, .socialIcons img:hover, #subBtn:hover {
+nav a:hover, .socialIcons img:hover, #submit:hover {
     box-shadow: 0px 0px 50px #00fff2;
 }
 
@@ -134,7 +134,7 @@ footer {
     color: #9b9b9b;
     clear: both;
     font-size: .6em;
-    height: 50px;
+    height: 60px;
     line-height: 3em;
     padding: 10px;
     position: relative;
@@ -150,6 +150,10 @@ footer {
     
     .socialIcons {
         max-width: inherit;
+    }
+    
+    .mainSection {
+        max-width: 100%;
     }
 }
 

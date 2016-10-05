@@ -10,7 +10,7 @@ body {
     background-image: url(../images/vichy.png);
     background-attachment: fixed;
     color: #777777;
-    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 1.2em;
     height: 100%;
     margin: auto;
@@ -75,7 +75,7 @@ nav ul li {
 }
 
 nav ul li:first-child {
-    border: none;
+    border-left: none;
 }
 
 nav a, a:link, a:visited {
@@ -150,10 +150,6 @@ footer {
     
     .socialIcons {
         max-width: inherit;
-    }
-    
-    .mainSection {
-        max-width: 100%;
     }
 }
 
